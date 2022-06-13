@@ -15,7 +15,7 @@ router.post('/', (req, res) => {
             }
         })
 })
-
+{/*
 router.post('/exhibit', (req, res) => {
     res.json(req.body)
     db.Exhibit.create(req.body)
@@ -29,7 +29,7 @@ router.post('/exhibit', (req, res) => {
             }
         })
 })
-
+*/}
 router.get('/:id', (req, res) => {
     db.Exhibit.findById(req.params.id)
         .then(exhibit => res.json(exhibit))
