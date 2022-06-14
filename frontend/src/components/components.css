@@ -26,7 +26,6 @@
   font-size: 1.5em;
   color: white;
   background-color: black;
-  border: 2px solid yellow;
   width: 85%;
   text-align: center;
 }
@@ -35,14 +34,12 @@
   font-family: "icomoon";
   color: white;
   background-color: black;
-  border: 2px solid yellow;
   text-align: center;
   padding-right: 2em;
 }
 
 
 .profile {
-  border: 2px solid yellow;
   background-color: rebeccapurple;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -95,7 +92,6 @@
   object-fit: scale-down;
   background-size: cover;
   background-color: #FFFFFF;
-  border:2px solid yellow; 
   width: 300px;
   height: 300px;
   overflow: hidden;
@@ -185,7 +181,6 @@
   color: white;
   background-color: black;
   display: inline-flex;
-  border: 2px solid yellow;
   width: 100%;
 }
 
@@ -196,7 +191,6 @@
   font-size: 2em;
   color: white;
   background-color: black;
-  border: 2px solid yellow;
   text-align: center;
   display: inline;
   margin-left: 0em;
@@ -233,7 +227,6 @@
   color: white;
   background-color: black;
   padding-top: 2em;
-  border: 2px solid yellow;
   width: 40%;
   text-decoration: none;
 }
@@ -251,7 +244,6 @@
   display: grid;
   padding: 2em;
   grid-template-columns: repeat(auto-fit, minmax(300px, 20vw));
-  border: 2px solid yellow;
 }
 
 .exhibit-image {
@@ -259,30 +251,25 @@
   width:  500px;
   height: 500px;
   object-fit: scale-down;
-  border: 2px solid yellow;
 }
 
 .video-viewer {
-  border: 2px solid yellow;
   padding: 2em;
   width: 100vw;
 }
 .exhibit-video {
   object-fit: contain;
-  border: 2px solid yellow;
   overflow: hidden;
 }
 
 .exhibit-text {
   font-family: 'codropsicon';
-  border: 2px solid yellow;
   color: white;
   width: 80vw;
   justify-content: center;
 }
 
 .exhibit-description {
-  border: 2px solid yellow;
   color: white;
   padding-left: 3em;
   width: 85%;
@@ -290,7 +277,6 @@
 }
 
 .exhibit-sources {
-  border: 2px solid yellow;
   color: white;
   padding-left: 2.5em;
   width: 85%;
